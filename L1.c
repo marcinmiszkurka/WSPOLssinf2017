@@ -1,11 +1,11 @@
 #include <stdio.h>
-main ()
+
+main()
 
 {
 
-prinfif("Pierwszy program w");
-prinff("c");
-printf("/n");
+	printf("Pierwszy program w");
+
 
 }
 
