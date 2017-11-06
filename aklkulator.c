@@ -1,22 +1,22 @@
-# include  <stdio.h>
-int  mnoz ( int a, int b) {
+#include  <stdio.h>
+int  mnoz(int a, int b) {
 	printf ( " wynik mnozenia: %i \n " , a * b);
 	zwróć a * b;
 }
-int  dodaj ( int a, int b) {
+int  dodaj(int a, int b) {
 	printf ( " dodawanie wynik: %i \n " , a + b);
 	return a + b;
 }
-int  odejmij ( int a, int b) {
+int  odejmij(int a, int b) {
 	printf ( " Wynik odejmowania: %i \n " , a - b);
 	return a - b;
 }
-int  dziel ( int a, int b) {
+int  dziel(int a, int b) {
 	printf ( " dzielenie: %i i reszty: %i \n " , a / b, a% b);
 	powrót a / b;
 }
 
-int  licznik ( int a, int b, char wybor) {
+int  licznik( int a, int b, char wybor) {
 	if (choices == ' * ' ) {
 		mnoz (a, b);
 	} else  if (choices == ' + ' ) {
