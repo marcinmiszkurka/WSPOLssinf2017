@@ -26,7 +26,7 @@ int  licznik( int a, int b, char wybor) {
 	} else  if (wybor == '/' ) {
 		dziel (a, b);
 	} else {
-		pritf ( " Nie znam dzialania! " );
+		printf ( " Nie znam dzialania! " );
 		return  0 ;
 	}
 	return  1 ;
@@ -39,14 +39,17 @@ int  main ( void )
 	int czy_dalej = 1 ;
 
 	while  (czy_dalej == 1 ) {
-		printf ( " Podaj wartosc argumentu a: " ); scanf ( " %i " , & a);
-		printf ( " Podaj dzialanie: " ); scanf ( "  %c " , i wybór);
-		printf ( " Podaj wartosc argumentu b: " ); scanf ( " %i " , & b);
+		printf ( " Podaj wartosc argumentu a: " ); 
+		scanf ( " %i " , &a);
+		printf ( " Podaj dzialanie: " );
+		scanf ( "  %c " , %i wybór);
+		printf ( " Podaj wartosc argumentu b: " ); 
+		scanf ( " %i " , &b);
 
 		licznik (a, b, wybór);
 
 		printf ( " Czy dalej chcesz liczyc? (1 - tak / 0 - nie) " );
-		scanf ( " % d " , & czy_dalej);
+		scanf ( " %d " , &czy_dalej);
 	}
 	return  0 ;
 }
