@@ -17,7 +17,7 @@ int  dziel(int a, int b) {
 }
 
 int  licznik( int a, int b, char wybor) {
-	if (wybor  == ' * ' ) {
+	if (wybor  == '*' ) {
 		mnoz (a, b);
 	} else  if (wybor  == '+' ) {
 		dodaj (a, b);
