@@ -1,18 +1,18 @@
-# include  < stdio.h >
+# include  <stdio.h>
 int  mnoz ( int a, int b) {
-	printf ( " wynik mnozenia: % i \ n " , a * b);
+	printf ( " wynik mnozenia: %i \n " , a * b);
 	zwróć a * b;
 }
 int  dodaj ( int a, int b) {
-	printf ( " dodawanie wynik: % i \ n " , a + b);
+	printf ( " dodawanie wynik: %i \n " , a + b);
 	return a + b;
 }
 int  odejmij ( int a, int b) {
-	printf ( " Wynik odejmowania: % i \ n " , a - b);
+	printf ( " Wynik odejmowania: %i \n " , a - b);
 	return a - b;
 }
 int  dziel ( int a, int b) {
-	printf ( " dzielenie: % i i reszty: % i \ n " , a / b, a% b);
+	printf ( " dzielenie: %i i reszty: %i \n " , a / b, a% b);
 	powrót a / b;
 }
 
@@ -39,9 +39,9 @@ int  main ( void )
 	int czy_dalej = 1 ;
 
 	podczas gdy (czy_dalej == 1 ) {
-		printf ( " Podaj wartosc argumentu a: " ); scanf ( " % i " , & a);
+		printf ( " Podaj wartosc argumentu a: " ); scanf ( " %i " , & a);
 		printf ( " Podaj dzialanie: " ); scanf ( "  % c " , i wybór);
-		printf ( " Podaj wartosc argumentu b: " ); scanf ( " % i " , & b);
+		printf ( " Podaj wartosc argumentu b: " ); scanf ( " %i " , & b);
 
 		licznik (a, b, wybór);
 
