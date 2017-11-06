@@ -19,11 +19,11 @@ int  dziel(int a, int b) {
 int  licznik( int a, int b, char wybor) {
 	if (wybor  == ' * ' ) {
 		mnoz (a, b);
-	} else  if (wybor  == ' + ' ) {
+	} else  if (wybor  == '+' ) {
 		dodaj (a, b);
-	} else  if (wybor == ' - ' ) {
+	} else  if (wybor == '-' ) {
 		odejmij (a, b);
-	} else  if (wybor == ' / ' ) {
+	} else  if (wybor == '/' ) {
 		dziel (a, b);
 	} else {
 		pritf ( " Nie znam dzialania! " );
@@ -40,7 +40,7 @@ int  main ( void )
 
 	while  (czy_dalej == 1 ) {
 		printf ( " Podaj wartosc argumentu a: " ); scanf ( " %i " , & a);
-		printf ( " Podaj dzialanie: " ); scanf ( "  % c " , i wybór);
+		printf ( " Podaj dzialanie: " ); scanf ( "  %c " , i wybór);
 		printf ( " Podaj wartosc argumentu b: " ); scanf ( " %i " , & b);
 
 		licznik (a, b, wybór);
