@@ -46,7 +46,7 @@ int  main ( void )
 		printf ( " Podaj wartosc argumentu b: " ); 
 		scanf ( " %i " , &b);
 
-		licznik (a, b, wybór);
+		licznik (a, b, wybor);
 
 		printf ( " Czy dalej chcesz liczyc? (1 - tak / 0 - nie) " );
 		scanf ( " %d " , &czy_dalej);
