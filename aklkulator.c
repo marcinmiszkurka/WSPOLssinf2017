@@ -42,7 +42,7 @@ int  main ( void )
 		printf ( " Podaj wartosc argumentu a: " ); 
 		scanf ( " %i " , &a);
 		printf ( " Podaj dzialanie: " );
-		scanf ( "  %c " , %i wybór);
+		scanf ( "  %c " ,  wybor);
 		printf ( " Podaj wartosc argumentu b: " ); 
 		scanf ( " %i " , &b);
 
