@@ -39,17 +39,17 @@ int  main ( void )
 	int czy_dalej = 1 ;
 
 	while  (czy_dalej == 1 ) {
-		printf ( " Podaj wartosc argumentu a: " ); 
-		scanf ( " %i " , &a);
-		printf ( " Podaj dzialanie: " );
-		scanf ( "  %c " ,  wybor);
-		printf ( " Podaj wartosc argumentu b: " ); 
-		scanf ( " %i " , &b);
+		printf ( "Podaj wartosc argumentu a:" ); 
+		scanf ( "%i" , &a);
+		printf ( " Podaj dzialanie:" );
+		scanf ( "%c" ,  wybor);
+		printf ( " Podaj wartosc argumentu b:" ); 
+		scanf ( "%i" , &b);
 
 		licznik (a, b, wybor);
 
 		printf ( " Czy dalej chcesz liczyc? (1 - tak / 0 - nie) " );
-		scanf ( " %d " , &czy_dalej);
+		scanf ( "%d" , &czy_dalej);
 	}
 	return  0 ;
 }
